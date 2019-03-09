@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src:  url('../fonts/comfortaa-base.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/comfortaa-ext.woff2') format('woff2');
+}
+html {
+    height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+    padding: 0;
+	background: linear-gradient(0deg, rgba(70,130,180,1) 0%, rgba(176,196,222,1) 100%);
+    color: black;
+    overflow: hidden;
+    font-family: 'Comfortaa';
+}
+.settings-box{
+    padding: 30px;
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+.settings-box button{
+    margin: 20px;
+    font-size: 16px;
+}
+.main-info{
+    padding: 30px;
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+#generation-nr{
+    padding: 20px;
+    display: block;
+}
+#population-table{
+    border: 3px solid black;
+}

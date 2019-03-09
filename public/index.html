@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body onload="clearVariables()">
+		<div class='settings-box'>
+			<span>Podaj wielkość populacji</span>
+			<input type="number" id="population-size"></input>
+			<button onclick="applyInputs()">Zastosuj zmiany</button>
+			<button id="next-step-button" onclick="nextStep()">Wykonaj kolejny krok symulacji</button>
+		</div>
+		<div class="main-info">
+			<span id="generation-nr"></span>
+			<table id="population-table">
+				
+			</table>
+		</div>
+		<script src="../script/GeneticValueEstimator.js" type="text/javascript"></script>
+	</body>
+</html>
